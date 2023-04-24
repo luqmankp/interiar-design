@@ -1,0 +1,257 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Pacifico&family=Rubik+Distressed&family=Teko:wght@500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.headsection{
+    background: rgba(0,0,0,0.5)url("./images/living.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo{
+    font-family: 'Teko', sans-serif;
+    color: antiquewhite;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-top: 5px;
+    
+}
+.logo>span{
+    font-family: 'Rubik Distressed', cursive;
+    color: rgba(178, 93, 23, 0.908);
+}
+.navitems{
+    margin-right: 15%;
+}
+.navitems>ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+   
+}
+.a:hover{
+    color: red;
+    transform: scale(1.1);
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.center{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+   
+}
+.title>h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.title>p{
+    color: white;
+    font-size: larger;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.search{
+    position: relative;
+}
+.sbtn{
+    position: absolute;
+    background: white;
+    font-size: 20px;
+    height: 39px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.searchbox{
+    width: 50%;
+    background: white;
+    font-size: 20px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.services{
+    width: 100%;
+    height: auto;
+    background: whitesmoke;   
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    padding-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,1);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.heading{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.servicebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 50px;
+
+}
+.box{
+    width: 300px;
+    height: 255px;
+    box-shadow:  0 0 1em rgb(119, 118, 118);
+    padding: 3px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.image{
+    width: 100%;
+    height: 180px;
+    
+   
+}
+.h1{
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+    letter-spacing: 1px;
+   
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(130, 109, 49);
+    color: rgb(245, 244, 242);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    margin-top: 3px;
+    
+}
+.gallerybox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 5px;
+}
+.gimage{
+    width: 400px;
+    height: 300px;
+}
+.gimage:hover{
+    transform: scale(1.1);
+}
+.contactbox{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.address{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(101, 96, 96);
+    padding-left: 200px;
+    
+    
+    
+}
+
+.ahead{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(62, 54, 54);
+    margin-bottom: -10px;
+}
+.form1{
+    width: 300px;
+    height: 255px;
+    box-shadow:  0 0 1em rgb(223, 220, 220);
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-left: 150px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form>input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+form>button{
+    width: 70px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    margin-left: 180px;
+}
+.about{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.connect{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
